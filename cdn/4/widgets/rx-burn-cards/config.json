@@ -1,0 +1,14 @@
+{
+    "currentWx":{
+        "stationNameField": "station_name",
+        "temperatureField": "airtf",
+        "rhField": "rh",
+        "windSpeedField": "ws_mph",
+        "windDirField": "winddir"
+    },
+    "fireWx": {
+        "fuelMoistureField": "fuelm",
+        "isiField": "isi",
+        "timeField": "time"
+    }
+}
