@@ -1,0 +1,13 @@
+{
+    "burnUnits":{
+        "unitGUIDField": "globalid",
+        "unitNameField": "unit_name",
+        "unitLocationField": "unit_loc",
+        "unitAcresField": "acres"
+    },
+    "burnUnitDates": {
+        "parentGUIDField": "parent_globalid",
+        "datesUnitNameField": "unit_name",
+        "dateField": "date"
+    }
+}
