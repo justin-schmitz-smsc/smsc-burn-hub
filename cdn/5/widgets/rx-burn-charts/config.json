@@ -1,0 +1,15 @@
+{
+    "fiveMinWx":{
+        "stationNameField": "station_name",
+        "temperatureField": "airtf_avg",
+        "rhField": "rh",
+        "windSpeedField": "ws_ms_max",
+        "windDirField": "winddir",
+        "timeField": "time"
+    },
+    "fireWx": {
+        "fuelMoistureField": "fuelm",
+        "isiField": "isi",
+        "timeField": "time"
+    }
+}

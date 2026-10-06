@@ -1,0 +1,39 @@
+{
+  "currentWx": {
+    "stationNameField": "station_name",
+    "stationGUIDField": "globalid",
+    "airTempField": "airtf",
+    "windSpeedField": "ws_mph",
+    "windDirField": "winddir",
+    "rhField": "rh"
+    
+    },
+  "burnUnits": {
+    "unitNameField": "unit_name",
+    "unitLocField": "unit_loc",
+    "unitGUIDField": "globalid",
+    "minTempField": "min_temp",
+    "desiredMinTempField": "desired_min_temp",
+    "desiredMaxTempField": "desired_max_temp",
+    "maxTempField": "max_temp",
+    
+    "minRhField": "min_rh",
+    "desiredMinRhField": "desired_min_rh",
+    "desiredMaxRhField": "desired_max_rh",
+    "maxRhField": "max_rh",
+
+    "minWindSpeedField": "min_wind_speed",
+    "desiredMinWindSpeedField": "desired_min_wind_speed",
+    "desiredMaxWindSpeedField": "desired_max_wind_speed",
+    "maxWindSpeedField": "max_wind_speed",
+    "burnWindDirField": "wind_dir_burn"
+  },
+
+  "burnDates": {
+    "parentGUIDField": "parent_globalid",
+    "unitNameField": "unit_name",
+    "dateField": "date"
+  }
+    
+
+}
