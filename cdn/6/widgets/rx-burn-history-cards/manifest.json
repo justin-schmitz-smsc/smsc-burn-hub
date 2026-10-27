@@ -1,0 +1,38 @@
+{
+  "name": "rx-burn-history-cards",
+  "label": "Rx Burn History Cards",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.14.0",
+  "author": "Justin",
+  "description": "Renders cards to display data on perscribed burns.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 600,
+    "height": 700
+  },
+  "dataActions": [],
+  "useDataSources": [
+    {
+      "name": "burnUnitsTable",
+      "label": "Burn Units Table",
+      "supportedTypes": [
+        "FEATURE_LAYER"
+      ]
+    },
+    {
+      "name": "burnUnitsDatesTable",
+      "label": "Burn Units Dates Table",
+      "supportedTypes": [
+        "FEATURE_LAYER"
+      ]
+    }
+  ],
+  "properties": {
+    "hasSetting": true
+  }
+}

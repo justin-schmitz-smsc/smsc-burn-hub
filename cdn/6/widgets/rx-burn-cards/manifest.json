@@ -1,0 +1,38 @@
+{
+  "name": "rx-burn-cards",
+  "label": "Rx Burn Cards",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.14.0",
+  "author": "Justin",
+  "description": "Renders cards to display current conditions for perscribed burns.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 600,
+    "height": 700
+  },
+  "dataActions": [],
+  "useDataSources": [
+    {
+      "name": "weatherTableCurrent",
+      "label": "Current Weather Table",
+      "supportedTypes": [
+        "FEATURE_LAYER"
+      ]
+    },
+    {
+      "name": "burnWeatherTable",
+      "label": "Fire Weather Table",
+      "supportedTypes": [
+        "FEATURE_LAYER"
+      ]
+    }
+  ],
+  "properties": {
+    "hasSetting": true
+  }
+}
